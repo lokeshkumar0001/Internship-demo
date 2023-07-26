@@ -1,0 +1,59 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block; /* Ensures the label is displayed as a block element */
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Give some space between label and input */
+  .form-group > label {
+    margin-bottom: 4px;
+  }
+  
+  /* Align the input fields to fill the available space */
+  input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%; /* Make the button take the full width of the container */
+    margin-top: 10px; /* Add some space between the form fields and the button */
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
